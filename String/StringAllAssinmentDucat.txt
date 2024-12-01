@@ -1,0 +1,55 @@
+/****************************************************************/
+(1)static int wordcount(String s)
+(2)static int spacecount(String s)
+(3)static int charcount(String s)
+(4)static String reverse(String s)
+(5)static boolean palindrom(String)
+(6)static String Alltrim(String s)
+(7)static String Trim(String s)   // Remove left Space;
+(8)Static String Trim(String s)    //Remove Right Space;
+(9)static String sequance(String s)//Remove All Space and Convert Whole String In One Word; 
+(10)static int vowel count(String s)
+(11)static int length(String s)
+(12)static void sequancecount(String s)
+(13)Static void Frequancycount(Strin s)////print Frequancy wise order;
+(14)static String changeCase(String s)  ///InDiA==iNdIa
+(15)static String singleOccurance(String s)  //nnittiiin==nitin;
+(16)static void sortedOrder(String s)
+(17)static String sortedword(String s)
+(18)static boolean find(Strin s,String s1)
+(19)static String replace(String s1,String s2,String s3)
+(20)static boolean equals(String s1,String s2)
+(21)static void triangle1(String s1)
+		d
+		du
+		duc
+		duca
+		ducat
+(22)static void triangle12(String s1)
+		ducat
+		duca
+		duc
+		du
+		d
+(24)static void triangle123(String s1)
+		ducat
+		 ucat
+		  cat
+		   at
+		    t 
+
+(23)static void triangle12(String s1)
+		ducat ducat
+		duca   ucat
+		duc     cat
+		du       at	
+		d         t
+(24)static int compare(String s1,String s2)
+(25)static void wordfrequancycount(String s1) //count the frequancy of each word in a string;
+(26)public int expression("10+20+20+20");
+(27)public int BinaryTodecimal("10101010");
+(28)public void printNonRepeatingFirstChar(String s)
+(29)public void reverseEachWord(String s)
+(30)public void printAllwordInreverseOrder(String s)
+(31)boolean finddigitinString(String s)
+(32)int countDigitInString(String)

@@ -1,0 +1,60 @@
+/*******************************************************************/
+(1)int max(int x[])
+(2)int min(int x[])
+(3)int max1(int x[][])
+(4)int min1(int x[][])
+(5)int sort(int x[])
+(6)int sort1(int[][])
+(7)void margesort(int[],int y[])
+(8)void union(int x[],int y[])
+(9)void intersection(int x[],int y[])
+(10)void matrix add(int x[][],int y[][])
+(11)void matrix multiplication(int x[][],int y[][])
+(12)void matrix transpose(int x[][])
+(13)void triangleAmax(int x[][])
+(14)void triangleAmin(int x[][])
+(15)void triangleBmax(int x[][])
+(16)void triangleBmin(int x[][])
+(17)void triangleBsum(int x[][])
+(18)void shift(int x[])
+(19)void frequencycount(int x[])
+(20)void firstnonrepatingelement(int x[])
+(21)int binaryTodecimal(int x[])
+(22)void maxnoRow(int x[][])
+(23)void NumberToword(int x[])
+(24)void printdignonalwise(int x[][])
+(25)void sequancediagonalwise(int [][])
+(26)void printTriangleWise(int x[])
+(27)void LCM(int x[])
+(28)void HCF(int x[])
+(29)int Find3rdLargestValueInArray(int z[])//(without Sorting)
+(30)float findmedian(int x[])
+(31)float findMean(int x[])
+(32)float findMode(int x[])
+(33)void MakeAllElementZero(int [10][10]).
+####################################################################################################################################.
+(34)you have an array with N elements initially each elements is 0 you Can Perform The Following Operation.
+    # INCREMENT operation Choose one Element of The Array and The Increment the value by one.
+	#Doubling operation Double The Value Of Each Element You are Given a (int x[]) desired Array Containning NumberToword.
+	#Element Compute and return The Smallest Possible Number of Operation needed To change The array From All Zeros To Desired Array.
+    Ex:
+	   Sample TestCase:-
+	   input{2,1}
+	   Output=3;//Minimam step Solutions
+
+	#One of The Optional Solutions is To Apply Increment Operation To Element 0 Twise and Then to Element 1.
+	Once : Total Number Of Operation is 3.
+	Input:{16,16,16}.
+	Output=7;//Minimam step Solutions
+	   
+    ## The Optional Solutions Looks as Follows first Apply an Increment Operation To Each Element The Apply
+	The Doubling Operation Fout Times Total Number of Operation is 3+4=7;
+	Ex:
+	Input:{100}
+	Output=9;//Minimam step Solutions
+	Input:{0,0,1,0,1};
+	Output=2;//Minimam step Solutions
+	Some Element on desired Array May be Zeros.
+	Ex:
+	Input:{123,234,345,456,567,789};
+	Output=40;////Minimam step Solutions.
